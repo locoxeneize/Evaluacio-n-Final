@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Adrian León">
+    <meta name="description" content="Evaluación final">
+    <meta name="viewport" content="width=device-width, user-scalable:no">
+    <title>Educación</title>
+  </head>
+  <body>
+    <header>
+      <svg width="180" height="120" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+       <g>
+        <title>Logo</title>
+        <path id="svg_4" d="m61.735321,14.153791c-7.686752,7.485956 -10.681904,17.707827 -9.243687,27.431528l14.251842,-13.873344c0.017586,-0.023918 0.062859,-0.037361 0.073204,-0.05447c0.957893,-1.790138 2.117546,-3.505533 3.660599,-5.004005c8.097839,-7.892914 21.231689,-7.8862 29.343323,0c8.104736,7.879143 8.115326,20.671207 0.010544,28.570755c-1.553467,1.508686 -3.319237,2.634285 -5.161766,3.57003c-0.020981,0.010212 -0.027878,0.026997 -0.048828,0.047516l-14.255455,13.876812c9.988991,1.403664 20.507462,-1.512199 28.194191,-8.991432c12.928436,-12.585083 12.917816,-32.984909 0,-45.570032c-12.935623,-12.585134 -33.895477,-12.585134 -46.823967,-0.003357zm-5.067604,77.616045c-0.954319,1.796875 -2.107132,3.512672 -3.657108,5.024521c-8.10136,7.882851 -21.252527,7.882851 -29.357363,0c-8.104728,-7.882538 -8.104728,-20.677849 0,-28.574142c1.546633,-1.50174 3.308882,-2.624054 5.151331,-3.55294c0.017307,-0.027306 0.020756,-0.054352 0.04851,-0.071335l14.248838,-13.880505c-9.98576,-1.403282 -20.493486,1.519138 -28.176769,8.994831c-12.925015,12.581787 -12.918021,32.988617 0,45.573776c12.93195,12.578445 33.89204,12.578445 46.823959,0c7.686745,-7.485962 10.692566,-17.714745 9.236633,-27.441795l-14.265923,13.876831c-0.014072,0.030495 -0.034859,0.040688 -0.052109,0.050758zm-23.35313,-14.141174l10.027348,9.764381c2.451946,2.383438 6.467758,2.383438 8.916206,0l37.900787,-36.89455c2.4589,-2.383205 2.4589,-6.295872 0.007202,-8.675785l-10.037743,-9.760933c-2.448753,-2.397068 -6.464264,-2.397068 -8.912918,-0.010162l-37.897434,36.897728c-2.455311,2.386719 -2.455311,6.295853 -0.003448,8.679321z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#0000ff"/>
+        <text transform="matrix(0.536233, 0, 0, 0.857915, 48.0261, 24.0705)" xml:space="preserve" text-anchor="middle" font-family="Monospace" font-size="24" id="svg_7" y="97.489239" x="146.332102" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#0000ff" fill="#040405">Adrian León</text>
+       </g>
+      </svg>
+      <h1>Curriculum Vitae</h1>
+        <h2>Adrian León</h2>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="educacion.html">Educación</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+      </ul>
+    </nav>
+    <section>
+        <p>
+          <h2>Educación</h2>
+        </p>
+        <p>
+          <table border="2" cellpadding="10", cellspacing="0">
+            <thead>
+              <tr>
+                <th>Año</th>
+                <th>Institución</th>
+                <th>Lugar</th>
+                <th>¿Culminó?</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2017</td>
+                <td>Universidad Politécnica Salesiana</td>
+                <td>Guayaquil</td>
+                <td>Si</td>
+              </tr>
+            </tbody>
+          </table>
+        <p>
+          <form name="Agregar Estudios" autocomplete="on">
+            <legend><h3>Agregar Estudios</h3></legend>
+        </p>
+        <p>
+          <label for="Año">Año:</label>
+            <select>
+              <option>2017</option><option>2016</option><option>2015</option><option>2014</option>
+            </select>
+        </p>
+        <p>
+          <label for="Institución">Institución: </label>
+            <input type="text" name="institucion" required>
+        </p>
+        <p>
+          <label for="Lugar">Lugar: </label>
+            <textarea name="lugar" rows="8" cols="40" required></textarea>
+        </p>
+        <p>
+          <label for="Culmino">¿Culminó?</label>
+          <input type="radio" name="si-no" required>Si
+          <input type="radio" name="si-no" required>No
+        </p>
+        <p>
+          <input type="submit" value="Enviar">
+        </p>
+        </form>
+      </p>
+    </section>
+    <footer>
+      @Derechos reservados
+      <p>
+        <ul>
+          <li><strong>Email:</strong> <a href="mailto:aleon@ipac.edu.ec?subject=feedback">aleon@ipac.edu.ec</a></li>
+          <li><strong>Teléfono:</strong> +593 4-283-2270</li>
+          <li><strong>Dirección:</strong> Km 1,5 vía a Samborondón</li>
+        </ul>
+      </p>
+    </footer>
+  </body>
+</html>
