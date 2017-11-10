@@ -1,0 +1,167 @@
+@font-face {
+  font-family: 'DancingScriptRegular';
+  src: url('DancingScriptRegular.otf');
+}
+
+#cabecera{
+  background-color: #5b7989;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+  animation: Animacion 2s;
+}
+
+@-webkit-keyframes Animacion{
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+  }
+}
+
+body{
+  background-color: #02010A;
+  font-family: 'DancingScriptRegular', cursive;
+}
+
+.contenido{
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width: 900px) {
+  .contenido{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 900px) {
+  .cabecera{
+    text-align: center;
+  }
+  ul{
+    text-align: center;
+    margin-left: -40px;
+  }
+  .focontacto, .foterminos, .foredes, .foderechos{
+		width: 100%;
+	}
+}
+
+#cabecera h1{
+  color: white;
+  text-shadow: 2px 2px 2px #02010A;
+  font-size: 2em;
+  float: left;
+  margin: -10px 5px;
+  padding: 20px 25px;
+}
+
+#cabecera nav{
+  padding: 4px 30px;
+  right: 0;
+  text-align: right;
+  height: 100%;
+}
+
+#cabecera nav ul{
+  list-style: none;
+}
+
+#cabecera nav li{
+  display: inline;
+  padding: 10px;
+}
+
+#cabecera nav li a{
+  color: white;
+  font-size: 1.5em;
+}
+
+#contenedor{
+  background-color: #82C3A6;
+}
+
+#contenedor img{
+  height: 250px;
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  -webkit-filter:drop-shadow(2px 2px 2px #02010A);
+  filter: drop-shadow(2px 2px 2px #02010A);
+}
+
+div [class*="imagen"]{
+  min-height: 200px;
+  flex: 1 2 30%;
+}
+
+.imagen1{
+  -webkit-filter:blur(10px);
+  filter: blur(10px);
+  order: 1
+}
+
+.imagen2{
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+  order: 2
+}
+.imagen3{
+  -webkit-filter:sepia(90%);
+  filter: sepia(90%);
+  order: 3
+}
+.imagen4{
+
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+  order: 4
+}
+.imagen5{
+  order: 5
+}
+.imagen6{
+
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+  order: 6
+}
+
+.contenedor{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#pie{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #C6D5C5;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#pie strong{
+  font-size: 1.5em;
+}
+
+.pie{
+  display: -webkit-flex;
+	display: flex;
+  -webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+.pie div {
+	box-sizing: border-box;
+	min-width: 150px;
+	padding: 20px;
+}
